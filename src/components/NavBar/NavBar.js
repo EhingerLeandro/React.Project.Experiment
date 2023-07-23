@@ -9,9 +9,9 @@ const NavBar = () =>{
                     <span class="navbar-toggler-icon" ></span>
                 </button>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="navbar-item"><a className="nav-link active" href="#">Opción 1</a></li>
-                    <button>Opción 2</button>
-                    <button>Opción 3</button>
+                    <li className="nav-item"><a className="nav-link active" href="#">Opción 1</a></li>
+                    <li className="nav-item"><a className="nav-link active" href="#">Opción 2</a></li>
+                    <li className="nav-item"><a className="nav-link active" href="#">Opción 3</a></li>
                 </ul>
             </div>
             <Cart/>
