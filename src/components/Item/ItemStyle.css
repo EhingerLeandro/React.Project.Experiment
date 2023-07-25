@@ -1,0 +1,7 @@
+.cardItem{
+    border-radius:5%;
+    margin:5vh;
+    padding:5vh;
+    border: 2px solid #000 ;
+    background-color: rgb(194, 155, 231);
+}

@@ -4,7 +4,7 @@ import styles from './Cart.module.css';
 const Cart = () => {
     return (
         <div>
-            <img class={styles.cart} src={cart} alt='cart'/>
+            <img className={styles.cart} src={cart} alt='cart'/>
             <span>Cantidad (0)</span>
         </div>
     )

@@ -1,14 +1,16 @@
+import './ItemStyle.css'
 
-
-const Item = ({id, name, price, stock})=>{
+const Item = ({id, img, name, price, stock})=>{
     return(
         <article className="cardItem">
             <header>
-                <h2>
+                <h3>
                     {name}
-                </h2>
+                </h3>
             </header>
-            <picture></picture>
+            <picture>
+                <img src={img}/>
+            </picture>
             <section>
                 <p>precio: ${price}</p>
                 <p>stock: ${stock}</p>
