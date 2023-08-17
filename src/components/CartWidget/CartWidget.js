@@ -3,9 +3,9 @@ import styles from './Cart.module.css';
 
 const Cart = () => {
     return (
-        <div>
+        <div className='cartWidget'>
             <img className={styles.cart} src={cart} alt='cart'/>
-            <span>Cantidad (0)</span>
+            <span>Cantidad(0)</span>
         </div>
     )
 }

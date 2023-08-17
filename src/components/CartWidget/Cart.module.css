@@ -2,3 +2,7 @@
     height:8vh;
     padding-top: 3%;
   }
+
+  .cartWidget{
+    display:flex;
+  }
